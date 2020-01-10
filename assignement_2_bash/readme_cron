@@ -1,0 +1,6 @@
+to make it periodically delete files from trach every 48 hours please 
+make this change 
+$ corntab -e
+edit in the file the following to changes to check evey 10 min the file
+*/10 * * * * ~/lectnote/bashscript/sedel.bash
+then save the changes  and exit 
